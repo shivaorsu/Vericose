@@ -23,38 +23,38 @@ const About = () => {
         </div>
       </section>
       <Work />
-      
+
       <div className="half-half-image-textr">
-  <div className="container">
-    <div className="row">
-      <div className="col-12">
-        <h2>Our Work</h2>
-      </div>
-    </div>
-    <div className="row">
-      <div className="col-12 col-lg-6">
-        <div className="contentr">
-          <p className="pr">
-            At Fluid Automotive, our purpose is to make automotive parts easily
-            accessible for everyone. Working with our partner brands, we aim to
-            retail the highest quality parts, whilst maintaining a high level of
-            customer satisfaction.
-          </p>
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <h2>Our Work</h2>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-12 col-lg-6">
+              <div className="contentr">
+                <p className="pr">
+                  At Fluid Automotive, our purpose is to make automotive parts
+                  easily accessible for everyone. Working with our partner
+                  brands, we aim to retail the highest quality parts, whilst
+                  maintaining a high level of customer satisfaction.
+                </p>
+              </div>
+            </div>
+            <div className="col-12 col-lg-6">
+              <div
+                className="img"
+                style={{
+                  background:
+                    'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9dj42YeFaCrxHTQ-hRRxklE6hGkk-R0qUZA&usqp=CAU")no-repeat center',
+                  backgroundSize: "cover",
+                }}
+              />
+            </div>
+          </div>
         </div>
       </div>
-      <div className="col-12 col-lg-6">
-        <div
-          className="img"
-          style={{
-            background:
-              'url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9dj42YeFaCrxHTQ-hRRxklE6hGkk-R0qUZA&usqp=CAU")no-repeat center',
-            backgroundSize: "cover",
-          }}
-        />
-      </div>
-    </div>
-  </div>
-</div>
 
       <div>
         <meta charSet="utf-8" />
@@ -82,7 +82,7 @@ const About = () => {
             <div className="row justify-content-center text-center">
               <div className="col-md-8 col-lg-6">
                 <div className="header-section">
-                  <h3 className="small-title">Our Team</h3>
+                  <h3 className="small-title">Our Blog</h3>
                   {/* <h2 className="title">Let's meet with our team members</h2> */}
                 </div>
               </div>
@@ -158,14 +158,14 @@ const About = () => {
         </section>
       </div>
       <div>
-      <div className="row justify-content-center text-center">
-        <div className="col-md-8 col-lg-6">
-          <div className="header-section">
-            <h3 className="small-title">Our Journey</h3>
-            {/* <h2 className="title">Let's meet with our team members</h2> */}
+        <div className="row justify-content-center text-center">
+          <div className="col-md-8 col-lg-6">
+            <div className="header-section">
+              <h3 className="small-title">Our Journey</h3>
+              {/* <h2 className="title">Let's meet with our team members</h2> */}
+            </div>
           </div>
         </div>
-      </div>
         <link
           href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic"
           rel="stylesheet"
@@ -219,7 +219,7 @@ const About = () => {
           </li>
         </ul>
       </div>
-      <Testimonail/>
+      <Testimonail />
       <Footer />
     </Fragment>
   );

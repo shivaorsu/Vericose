@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { BsLungsFill } from "react-icons/bs";
 
 const Footer = () => {
   return (

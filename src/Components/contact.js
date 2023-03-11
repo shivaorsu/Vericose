@@ -58,9 +58,9 @@ const Contact = () => {
                     <i className="fas fa-clock" />
                   </div>
                   <div className="contact-info-text">
-                    <h2>office time</h2>
-                    <span>Mon - Thu 9:00 am - 4.00 pm</span>
-                    <span>Thu - Mon 10.00 pm - 5.00 pm</span>
+                    <h2>Contact us</h2>
+                    <span>9160903004</span>
+                    
                   </div>
                 </div>
               </div>
@@ -104,8 +104,8 @@ const Contact = () => {
                       <div className="single-input-field">
                         <input
                           type="text"
-                          placeholder="Subject"
-                          name="subject"
+                          placeholder="City*"
+                          name="City*"
                         />
                       </div>
                     </div>

@@ -2,19 +2,21 @@ import React, { Fragment } from "react";
 import Work from "./working";
 import "./home.css";
 import Header from "./header";
-import {BsLungsFill} from 'react-icons/bs';
+import { BsLungsFill } from "react-icons/bs";
 import Testimonail from "./testimonial";
 import Footer from "./footer";
-
+import Banner from "./banner";
+import UpHeader from "./header1";
 const Home = () => {
   return (
     <Fragment>
       <div>
-        <Header/>
         
+        <Header />
+
         {/* End Header */}
         {/* ======= Hero Section ======= */}
-        <section id="hero" className="d-flex align-items-center">
+        {/* <section id="hero" className="d-flex align-items-center">
           <div className="container text-center position-relative">
             <h1>24/7 Care is available</h1>
             <h2>
@@ -25,7 +27,9 @@ const Home = () => {
               Get Started
             </a>
           </div>
-        </section>
+        </section> */}
+        <Banner/>
+
         {/* End Hero */}
         {/* ======= Services Section ======= */}
         <section id="services" className="services mt-5 mb-3 py-3">
@@ -41,7 +45,7 @@ const Home = () => {
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                 <div className="service shadow">
                   <div className="icon">
-                  <BsLungsFill className="fas fa-heart" />
+                    <BsLungsFill className="fas fa-heart" />
                   </div>
                   <h4>
                     <a href>Lorem Ipsum</a>
@@ -83,7 +87,7 @@ const Home = () => {
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div className="service c shadow">
                   <div className="icon">
-                  <BsLungsFill className="fas fa-heart" />
+                    <BsLungsFill className="fas fa-heart" />
                   </div>
                   <h4>
                     <a href>Lorem Ipsum</a>
@@ -97,7 +101,7 @@ const Home = () => {
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div className="service shadow">
                   <div className="icon">
-                  <BsLungsFill className="fas fa-heart" />
+                    <BsLungsFill className="fas fa-heart" />
                   </div>
                   <h4>
                     <a href>Lorem Ipsum</a>
@@ -111,7 +115,7 @@ const Home = () => {
               <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
                 <div className="service shadow">
                   <div className="icon">
-                  <BsLungsFill className="fas fa-heart" />
+                    <BsLungsFill className="fas fa-heart" />
                   </div>
                   <h4>
                     <a href>Lorem Ipsum</a>
@@ -125,270 +129,8 @@ const Home = () => {
             </div>
           </div>
         </section>
-        {/* End Services Section */}
-        {/* ======= About Section ======= */}
-        
-        {/*end of about section*/}
-        {/* ======= Camps Section ======= */}
-        {/* <section className="camp"> */}
-          {/* <div className="container text-center">
-      <h2 className="py-3">Medical Camps</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sint ad
-        iusto cumque numquam in!
-      </p>
-    </div> */}
-          {/* <div className="camp-grid">
-      <div className="row">
-        <div className="col-lg-3 col-sm-6 col-xs-12">
-          <div className="card card-block">
-            <img src="images/camp1.jpg" alt />
-            <div className="camp-text">
-              <div>
-                <h3 className="card-title">Lorem Ipsum Dolor</h3>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 col-xs-12">
-          <div className="card card-block">
-            <img src="images/camp2.jpg" alt />
-            <div className="camp-text">
-              <div>
-                <h3 className="card-title">Lorem Ipsum Dolor</h3>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 col-xs-12">
-          <div className="card card-block">
-            <img src="images/camp3.jpg" alt />
-            <div className="camp-text">
-              <div>
-                <h3 className="card-title">Lorem Ipsum Dolor</h3>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 col-xs-12">
-          <div className="card card-block">
-            <img src="images/camp4.jpg" alt />
-            <div className="camp-text">
-              <div>
-                <h3 className="card-title">Lorem Ipsum Dolor</h3>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-lg-3 col-sm-6 col-xs-12">
-          <div className="card card-block">
-            <img src="images/camp7.jpg" alt />
-            <div className="camp-text">
-              <div>
-                <h3 className="card-title">Lorem Ipsum Dolor</h3>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 col-xs-12">
-          <div className="card card-block">
-            <img src="images/camp5.jpg" alt />
-            <div className="camp-text">
-              <div>
-                <h3 className="card-title">Lorem Ipsum Dolor</h3>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 col-xs-12">
-          <div className="card card-block">
-            <img src="images/camp6.jpg" alt />
-            <div className="camp-text">
-              <div>
-                <h3 className="card-title">Lorem Ipsum Dolor</h3>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-3 col-sm-6 col-xs-12">
-          <div className="card card-block">
-            <img src="images/camp8.jpg" alt />
-            <div className="camp-text">
-              <div>
-                <h3 className="card-title">Lorem Ipsum Dolor</h3>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> */}
-        {/* </section> */}
-        {/* End Portfolio Section */}
-        {/* ======= Team Section ======= */}
-        {/* <section id="team" className="team mt-5">
-          <div className="container">
-            <div className="row"> */}
-              {/* <div className="col-lg-4">
-          <div className="section-title">
-            <h2>Team</h2>
-            <p>
-              Our Amazing hardworking and enthusiastic team. Our Amazing
-              hardworking and enthusiastic team
-            </p>
-          </div>
-        </div> */}
-              {/* <div className="col-lg-8">
-                <div className="row"> */}
-                  {/* <div className="col-lg-6">
-              <div className="member">
-                <div className="image">
-                  <img src="images/doc-3.jpg" className="img-fluid" alt />
-                </div>
-                <div className="member-info">
-                  <h4>Jessica Chang</h4>
-                  <span> Executive Officer</span>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  </p>
-                  <div className="social">
-                    <a href>
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href>
-                      <i className="fab fa-facebook" />
-                    </a>
-                    <a href>
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href>
-                      {" "}
-                      <i className="fab fa-linkedin" />{" "}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-                  {/* <div className="col-lg-6 mt-4 mt-lg-0">
-              <div className="member">
-                <div className="image">
-                  <img src="images/doc-3.jpg" className="img-fluid" alt />
-                </div>
-                <div className="member-info">
-                  <h4>Jacqueline Chang</h4>
-                  <span>Medicine Department</span>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-                  <div className="social">
-                    <a href>
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href>
-                      <i className="fab fa-facebook" />
-                    </a>
-                    <a href>
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href>
-                      {" "}
-                      <i className="fab fa-linkedin" />{" "}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-                  {/* <div className="col-lg-6 mt-4">
-              <div className="member">
-                <div className="image">
-                  <img src="images/doc-2.jpg" className="img-fluid" alt />
-                </div>
-                <div className="member-info">
-                  <h4>John Doe</h4>
-                  <span>MS</span>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  </p>
-                  <div className="social">
-                    <a href>
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href>
-                      <i className="fab fa-facebook" />
-                    </a>
-                    <a href>
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href>
-                      {" "}
-                      <i className="fab fa-linkedin" />{" "}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-                  {/* <div className="col-lg-6 mt-4">
-              <div className="member">
-                <div className="image">
-                  <img src="images/doc-2.jpg" className="img-fluid" alt />
-                </div>
-                <div className="member-info">
-                  <h4>Jade Joe</h4>
-                  <span>Accountant</span>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  </p>
-                  <div className="social">
-                    <a href>
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href>
-                      <i className="fab fa-facebook" />
-                    </a>
-                    <a href>
-                      <i className="fab fa-instagram" />
-                    </a>
-                    <a href>
-                      {" "}
-                      <i className="fab fa-linkedin" />{" "}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-                {/* </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
-        {/* End Team Section */}
-        {/* ======= Contact Section ======= */}
-        <Work/>
+
+        <Work />
         <section className="contact">
           <div className="container">
             <div className="section-title text-center mt-5">
@@ -479,13 +221,67 @@ const Home = () => {
           </div>
         </section>
 
-        <Testimonail/>
-        {/* End Contact Section */}
-        {/* Footer*/}
-        
+        <Testimonail />
+        <section className="section-teamhm">
+          <div className="container">
+            {/* Start Header Section */}
+            <div className="row justify-content-center text-center">
+              <div className="col-md-8 col-lg-6">
+                <div className="header-sectionhm">
+                  <h3 className="small-titlehm">Our Blog</h3>
+                  {/* <h2 className="title">Let's meet with our team members</h2> */}
+                </div>
+              </div>
+            </div>
+            {/* / End Header Section */}
+            <div className="row">
+              {/* Start Single Person */}
+              <div className="col-sm-6 col-lg-4 col-xl-3">
+                <div className="single-personhm">
+                  <div className="person-imagehm">
+                    <img src="https://i.ibb.co/G2CBWvb/person1.jpg" alt />
+                  </div>
+                  <div className="person-info">
+                    <h3 className="full-name">John Doe</h3>
+                    <span className="speciality">Medical</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* / End Single Person */}
+              {/* Start Single Person */}
+              <div className="col-sm-6 col-lg-4 col-xl-3">
+                <div className="single-personhm">
+                  <div className="person-imagehm">
+                    <img src="https://i.ibb.co/25zdRMr/person3.jpg" alt />
+                  </div>
+                  <div className="person-info">
+                    <h3 className="full-name">John Doe</h3>
+                    <span className="speciality">Medical</span>
+                  </div>
+                </div>
+              </div>
+              {/* / End Single Person */}
+              {/* Start Single Person */}
+              <div className="col-sm-6 col-lg-4 col-xl-3">
+                <div className="single-personhm">
+                  <div className="person-imagehm">
+                    <img src="https://i.ibb.co/w0ynr2Q/person4.jpg" alt />
+                  </div>
+                  <div className="person-info">
+                    <h3 className="full-name">John Smith</h3>
+                    <span className="speciality">Medical</span>
+                  </div>
+                </div>
+              </div>
+              {/* / End Single Person */}
+            </div>
+          </div>
+        </section>
+       
         
       </div>
-     <Footer/>
+      <Footer />
     </Fragment>
   );
 };

@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
+import "./home.css";
 
 const Header = () => {
   return (
     <Fragment>
-      <title>Title</title>
       {/* Required meta tags */}
       <meta charSet="utf-8" />
       <meta
@@ -26,8 +26,19 @@ const Header = () => {
       />
       <nav className="navbar navbar-expand-lg nav-back fixed-top" id="mainNav">
         <div className="container">
-          <a className="navbar-brand" href="#">
-           <img src="https://www.drrahulagarwal.in/wp-content/uploads/2022/06/top_logo11.jpg"/>
+          {/* <a className="navbar-brand" href="#">
+            <img
+              src="https://www.drrahulagarwal.in/wp-content/uploads/2022/06/top_logo11.jpg"
+              className="logo"
+            />
+          </a> */}
+          <a className="navbar-brand" href="home">
+            <a className="navbar-brand" href="home">
+              <img
+                src="https://www.drrahulagarwal.in/wp-content/uploads/2022/06/top_logo11.jpg"
+                className="logo"
+              />
+            </a>
           </a>
           <button
             className="navbar-toggler navbar-toggler-right"
@@ -55,36 +66,47 @@ const Header = () => {
               <li className="nav-item">
                 <Link to="/services" id="nav-link" className="nav-link">
                   Service
-
-                  
                 </Link>
-                <div class="dropdown-content">
-                  <a href="#">Glue Treatment for Varicose veins</a>
-                  <a href="#">Liser Treatment for Varicos</a>
-                  
-                </div>
               </li>
               <li className="nav-item">
                 <Link to="/diseases" id="nav-link" className="nav-link">
                   Diseases
                 </Link>
               </li>
+              <div className="header-menu">
+                <ul>
+                  <li>
+                    <a href="#">Treatmeant</a>
+                    <ul className="text-left">
+                      <li>
+                        <Link
+                          to="/glue-treatment"
+                          id="nav-link"
+                          className="nav-link"
+                          href="#"
+                        >
+                          Glue Treatmeant
+                        </Link>
+                      </li>
+                      <li>
+                        <a href="#">Liser Treatmeant</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
 
               {/* <Link to="/Treatmeant" id="nav-link" className="nav-link">
                   Treatment
                   
                 </Link> */}
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <div to="./treatment" id="nav-link" className="nav-link">
                   Treatment
-                  <i class="fa fa-caret-down"></i>
+                  
                 </div>
-                <div class="dropdown-content">
-                  <a href="#">Aortic Aneurysm</a>
-                  <a href="#">Aortic Dissection</a>
-                  <a href="#">Vascular Access</a>
-                </div>
-              </li>
+                
+              </li> */}
               <li className="nav-item">
                 <Link to="/blog" id="nav-link" className="nav-link">
                   Blog
@@ -97,16 +119,20 @@ const Header = () => {
                 </Link>
               </li>
 
-              {/* <li className="nav-item">
-                  <a className="nav-link" href="#signup">
-                    Contact
-                  </a>
-                </li> */}
-              <div className="text-center">
-                <button type="submit" className="contact_button">
+              {/* <div className="text-center">
+                <Link
+                  to="/make "
+                  id="nav-link"
+                  className="contact_button"
+                >
                   Make appointment
-                </button>
-              </div>
+                </Link>
+              </div> */}
+              <div className="text-center">
+                    <Link to="/book-an-appointment" className="contact_button ">
+                      Book an Appointment
+                    </Link>
+                  </div>
             </ul>
           </div>
         </div>
