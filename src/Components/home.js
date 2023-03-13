@@ -6,8 +6,8 @@ import { BsLungsFill } from "react-icons/bs";
 import Testimonail from "./testimonial";
 import Footer from "./footer";
 import Banner from "./banner";
-import UpHeader from "./header1";
-const Home = () => {
+//import UpHeader from "./header1";
+const HomeUser = () => {
   return (
     <Fragment>
       <div>
@@ -285,4 +285,4 @@ const Home = () => {
     </Fragment>
   );
 };
-export default Home;
+export default HomeUser;

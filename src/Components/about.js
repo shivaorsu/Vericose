@@ -6,7 +6,7 @@ import Footer from "./footer";
 import "./about.css";
 import Testimonail from "./testimonial";
 
-const About = () => {
+const AboutUser = () => {
   return (
     <Fragment>
       <Header />
@@ -224,4 +224,4 @@ const About = () => {
     </Fragment>
   );
 };
-export default About;
+export default AboutUser;
