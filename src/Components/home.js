@@ -227,7 +227,7 @@ const HomeUser = () => {
             {/* Start Header Section */}
             <div className="row justify-content-center text-center">
               <div className="col-md-8 col-lg-6">
-                <div className="header-sectionhm">
+                <div className="header-section">
                   <h3 className="small-titlehm">Our Blog</h3>
                   {/* <h2 className="title">Let's meet with our team members</h2> */}
                 </div>
@@ -270,6 +270,18 @@ const HomeUser = () => {
                   </div>
                   <div className="person-info">
                     <h3 className="full-name">John Smith</h3>
+                    <span className="speciality">Medical</span>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6 col-lg-4 col-xl-3">
+                <div className="single-personhm">
+                  <div className="person-imagehm">
+                    <img src="https://i.ibb.co/nbpNr4r/person2.jpg" alt="web" />
+                    
+                  </div>
+                  <div className="person-info">
+                    <h3 className="full-name">Robert Smith</h3>
                     <span className="speciality">Medical</span>
                   </div>
                 </div>

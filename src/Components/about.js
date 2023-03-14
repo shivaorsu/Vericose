@@ -108,9 +108,7 @@ const AboutUser = () => {
                 <div className="single-person">
                   <div className="person-image">
                     <img src="https://i.ibb.co/nbpNr4r/person2.jpg" alt="web" />
-                    {/* <span className="icon">
-                <i className="fab fa-wordpress-simple" />
-              </span> */}
+                    
                   </div>
                   <div className="person-info">
                     <h3 className="full-name">Robert Smith</h3>
