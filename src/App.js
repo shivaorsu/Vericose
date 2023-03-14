@@ -3,7 +3,7 @@ import { Fragment } from "react";
 //import "./media-query.css";
 //import Home from "./Components/Admin/Pages/Home";
 //import HomeAdmin from "./Components/Admin/Pages/Home";
-import { Routes, Route, useNavigate, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 //import { ToastContainer } from "react-toastify";
 //import "react-toastify/dist/ReactToastify.css";
 //import Detail from "./Components/Admin/Pages/Details";
@@ -58,7 +58,7 @@ function App() {
         <Route path="/about" element={<AboutUser />} />
         <Route path="/services" element={<Service />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/glue" element={<Glue />} />
+        <Route path="/glue-treatment" element={<Glue />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/book-an-appointment" element={<Appointment />} />
         {/* <Route path="/homeadmin" element={<HomeAdmin />} /> */}

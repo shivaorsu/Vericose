@@ -10,16 +10,16 @@ const fadeImages = [
 const Banner = () => {
   return (
     <Fragment>
-      <div className="banner-section-bg-container d-flex justify-content-center flex-column">
+      <div className="banner-section-bg-container d-flex justify-content-center flex-column" b>
         <Fade>
         <div className="banner-section-bg-container d-flex justify-content-center flex-column">
-            <img src={fadeImages[0]}  />
+            <img src={fadeImages[0]} alt="web" />
           </div>
           <div className="banner-section-bg-container d-flex justify-content-center flex-column">
-            <img src={fadeImages[1]} />
+            <img src={fadeImages[1]} alt="web" />
           </div>
           <div className="banner-section-bg-container d-flex justify-content-center flex-column">
-            <img src={fadeImages[2]} />
+            <img src={fadeImages[2]} alt="webs" />
           </div>
         </Fade>
       </div>

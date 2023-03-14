@@ -40,7 +40,7 @@ const Glue = () => {
               <span className="ml-1">6 mins ago</span>
             </small>
             <small>
-              <a href="#" className="flex flex-row items-center text-dark mr-3">
+              <a href="home" className="flex flex-row items-center text-dark mr-3">
                 <svg
                   className="text-indigo-600"
                   fill="currentColor"
@@ -61,7 +61,7 @@ const Glue = () => {
               </a>
             </small>
             <small>
-              <a href="#" className="flex flex-row items-center text-dark">
+              <a href="home" className="flex flex-row items-center text-dark">
                 <svg
                   className="text-indigo-600"
                   fill="currentColor"
@@ -145,33 +145,10 @@ const Glue = () => {
               publishing software like Aldus PageMaker including versions of
               Lorem Ipsum.
             </p>
-            <div className="my-3">
-              <small>
-                <a href="#" className="text-primary">
-                  #election
-                </a>
-                ,{" "}
-                <a href="#" className="text-primary">
-                  #politics
-                </a>
-                ,{" "}
-                <a href="#" className="text-primary">
-                  #trump
-                </a>
-                ,{" "}
-                <a href="#" className="text-primary">
-                  #revenge
-                </a>
-                ,{" "}
-                <a href="#" className="text-primary">
-                  #2020
-                </a>
-              </small>
-            </div>
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </Fragment>
   );
 };

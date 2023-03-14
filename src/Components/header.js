@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import Dropdown from "react-bootstrap/Dropdown";
+//import Dropdown from "react-bootstrap/Dropdown";
 import "./home.css";
 
 const Header = () => {
@@ -16,12 +16,12 @@ const Header = () => {
       {/* Bootstrap CSS */}
       <link
         rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        // href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossOrigin="anonymous"
       />
       <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        // href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
         rel="stylesheet"
       />
       <nav className="navbar navbar-expand-lg nav-back fixed-top" id="mainNav">
@@ -37,6 +37,7 @@ const Header = () => {
               <img
                 src="https://www.drrahulagarwal.in/wp-content/uploads/2022/06/top_logo11.jpg"
                 className="logo"
+                alt="logo"
               />
             </a>
           </a>
@@ -76,20 +77,20 @@ const Header = () => {
               <div className="header-menu">
                 <ul>
                   <li>
-                    <a href="#">Treatmeant</a>
+                    <a href="home">Treatmeant</a>
                     <ul className="text-left">
                       <li>
                         <Link
                           to="/glue-treatment"
                           id="nav-link"
                           className="nav-link"
-                          href="#"
+                          
                         >
                           Glue Treatmeant
                         </Link>
                       </li>
                       <li>
-                        <a href="#">Liser Treatmeant</a>
+                        <a href="home">Liser Treatmeant</a>
                       </li>
                     </ul>
                   </li>

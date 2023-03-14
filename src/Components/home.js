@@ -239,7 +239,7 @@ const HomeUser = () => {
               <div className="col-sm-6 col-lg-4 col-xl-3">
                 <div className="single-personhm">
                   <div className="person-imagehm">
-                    <img src="https://i.ibb.co/G2CBWvb/person1.jpg" alt />
+                    <img src="https://i.ibb.co/G2CBWvb/person1.jpg" alt="web" />
                   </div>
                   <div className="person-info">
                     <h3 className="full-name">John Doe</h3>
@@ -253,7 +253,7 @@ const HomeUser = () => {
               <div className="col-sm-6 col-lg-4 col-xl-3">
                 <div className="single-personhm">
                   <div className="person-imagehm">
-                    <img src="https://i.ibb.co/25zdRMr/person3.jpg" alt />
+                    <img src="https://i.ibb.co/25zdRMr/person3.jpg" alt="web" />
                   </div>
                   <div className="person-info">
                     <h3 className="full-name">John Doe</h3>
@@ -266,7 +266,7 @@ const HomeUser = () => {
               <div className="col-sm-6 col-lg-4 col-xl-3">
                 <div className="single-personhm">
                   <div className="person-imagehm">
-                    <img src="https://i.ibb.co/w0ynr2Q/person4.jpg" alt />
+                    <img src="https://i.ibb.co/w0ynr2Q/person4.jpg" alt="web" />
                   </div>
                   <div className="person-info">
                     <h3 className="full-name">John Smith</h3>

@@ -21,6 +21,7 @@ const Testimonail=()=>{
             <img
               src="https://i.ibb.co/8x9xK4H/team.jpg"
               className="img-circle img-responsive"
+             alt="web"
             />
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -36,6 +37,7 @@ const Testimonail=()=>{
             <img
               src="https://i.ibb.co/8x9xK4H/team.jpg"
               className="img-circle img-responsive"
+              alt="web"
             />
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -51,6 +53,7 @@ const Testimonail=()=>{
             <img
               src="https://i.ibb.co/8x9xK4H/team.jpg"
               className="img-circle img-responsive"
+              alt="web"
             />
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting

@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/veinvascular.in/static/css/main.da328b41.css",
-    "main.js": "/veinvascular.in/static/js/main.56eb8d93.js",
-    "static/media/hero-bg.jpg": "/veinvascular.in/static/media/hero-bg.780df2f268b43ea6e3aa.jpg",
-    "static/media/about.jpg": "/veinvascular.in/static/media/about.ea024a9dc739b274705c.jpg",
-    "index.html": "/veinvascular.in/index.html",
-    "main.da328b41.css.map": "/veinvascular.in/static/css/main.da328b41.css.map",
-    "main.56eb8d93.js.map": "/veinvascular.in/static/js/main.56eb8d93.js.map"
+    "main.css": "/static/css/main.ec4fb54a.css",
+    "main.js": "/static/js/main.e7344329.js",
+    "static/media/hero-bg.jpg": "/static/media/hero-bg.780df2f268b43ea6e3aa.jpg",
+    "index.html": "/index.html",
+    "main.ec4fb54a.css.map": "/static/css/main.ec4fb54a.css.map",
+    "main.e7344329.js.map": "/static/js/main.e7344329.js.map"
   },
   "entrypoints": [
-    "static/css/main.da328b41.css",
-    "static/js/main.56eb8d93.js"
+    "static/css/main.ec4fb54a.css",
+    "static/js/main.e7344329.js"
   ]
 }

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Header from "./header";
-import about from "../Components/about.jpg";
+//import about from "../Components/about.jpg";
 import Work from "./working";
 import Footer from "./footer";
 import "./about.css";
@@ -17,9 +17,7 @@ const AboutUser = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
             deleniti.
           </h2>
-          {/* <a href="#about" className="main-btn">
-              Get Started
-            </a> */}
+         
         </div>
       </section>
       <Work />
@@ -93,7 +91,7 @@ const AboutUser = () => {
               <div className="col-sm-6 col-lg-4 col-xl-3">
                 <div className="single-person">
                   <div className="person-image">
-                    <img src="https://i.ibb.co/G2CBWvb/person1.jpg" alt />
+                    <img src="https://i.ibb.co/G2CBWvb/person1.jpg" alt="web" />
                     {/* <span className="icon">
                 <i className="fab fa-html5" />
               </span> */}
@@ -109,7 +107,7 @@ const AboutUser = () => {
               <div className="col-sm-6 col-lg-4 col-xl-3">
                 <div className="single-person">
                   <div className="person-image">
-                    <img src="https://i.ibb.co/nbpNr4r/person2.jpg" alt />
+                    <img src="https://i.ibb.co/nbpNr4r/person2.jpg" alt="web" />
                     {/* <span className="icon">
                 <i className="fab fa-wordpress-simple" />
               </span> */}
@@ -125,7 +123,7 @@ const AboutUser = () => {
               <div className="col-sm-6 col-lg-4 col-xl-3">
                 <div className="single-person">
                   <div className="person-image">
-                    <img src="https://i.ibb.co/25zdRMr/person3.jpg" alt />
+                    <img src="https://i.ibb.co/25zdRMr/person3.jpg" alt="web" />
                     {/* <span className="icon">
                 <i className="fab fa-angular" />
               </span> */}
@@ -141,7 +139,7 @@ const AboutUser = () => {
               <div className="col-sm-6 col-lg-4 col-xl-3">
                 <div className="single-person">
                   <div className="person-image">
-                    <img src="https://i.ibb.co/w0ynr2Q/person4.jpg" alt />
+                    <img src="https://i.ibb.co/w0ynr2Q/person4.jpg" alt="web" />
                     {/* <span className="icon">
                 <i className="fab fa-js" />
               </span> */}
