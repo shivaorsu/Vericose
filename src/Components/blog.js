@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import "./blog.css";
 import Header from "./header";
 import Footer from "./footer";
-import { BsLungsFill } from "react-icons/bs";
+//import { BsLungsFill } from "react-icons/bs";
 
 const Blog = () => {
   return (
@@ -67,7 +67,7 @@ const Blog = () => {
           <div className="panel panel-default">
             <div className="panel-body">
               {/* <h4 className="text-center">Search for Posts!</h4> */}
-              <form role="Form" method="GET" action acceptCharset="UTF-8">
+              <form  >
                 <div className="form-group">
                   <div className="input-group">
                     {/* <input
@@ -101,7 +101,7 @@ const Blog = () => {
                 <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                   <img
                     src="https://images.pexels.com/photos/301930/pexels-photo-301930.jpeg?h=350&auto=compress&cs=tinysrgb"
-                    alt
+                    alt="web"
                     className="img-thumbnail img-responsive"
                   />
                 </div>
@@ -121,7 +121,7 @@ const Blog = () => {
                 <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                   <img
                     src="https://images.pexels.com/photos/34601/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb"
-                    alt
+                    alt="web"
                     className="img-thumbnail img-responsive"
                   />
                 </div>
@@ -141,7 +141,7 @@ const Blog = () => {
                 <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                   <img
                     src="https://images.pexels.com/photos/459688/pexels-photo-459688.jpeg?h=350&auto=compress&cs=tinysrgb"
-                    alt
+                    alt="we"
                     className="img-thumbnail img-responsive"
                   />
                 </div>
@@ -161,7 +161,7 @@ const Blog = () => {
                 <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                   <img
                     src="https://images.pexels.com/photos/273222/pexels-photo-273222.jpeg?h=350&auto=compress&cs=tinysrgb"
-                    alt
+                    alt="web"
                     className="img-thumbnail img-responsive"
                   />
                 </div>
@@ -181,7 +181,7 @@ const Blog = () => {
                 <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                   <img
                     src="https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?h=350&auto=compress&cs=tinysrgb"
-                    alt
+                    alt="weg"
                     className="img-thumbnail img-responsive"
                   />
                 </div>
