@@ -1,56 +1,56 @@
-import { useState, useEffect, Fragment } from "react";
+import { Fragment } from "react";
 
 //import "./media-query.css";
 //import Home from "./Components/Admin/Pages/Home";
-import HomeAdmin from "./Components/Admin/Pages/Home";
+//import HomeAdmin from "./Components/Admin/Pages/Home";
 import { Routes, Route, useNavigate, Navigate } from "react-router-dom";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import Detail from "./Components/Admin/Pages/Details";
-import AddEditBlog from "./Components/Admin/Pages/AddEditBlog";
-import About from "./Components/Admin/Pages/About";
-import NotFound from "./Components/Admin/Pages/NotFound";
-import Header from "./Components/Admin/Headeradmin";
-import Auth from "./Components/Admin/Pages/Auth";
-import { auth } from "./firebase";
-import { signOut } from "firebase/auth";
-import TagBlog from "./Components/Admin/Pages/TagBlog";
-import CategoryBlog from "./Components/Admin/Pages/CategoryBlog";
+//import { ToastContainer } from "react-toastify";
+//import "react-toastify/dist/ReactToastify.css";
+//import Detail from "./Components/Admin/Pages/Details";
+//import AddEditBlog from "./Components/Admin/Pages/AddEditBlog";
+//import About from "./Components/Admin/Pages/About";
+//import NotFound from "./Components/Admin/Pages/NotFound";
+//import Header from "./Components/Admin/Headeradmin";
+//import Auth from "./Components/Admin/Pages/Auth";
+//import { auth } from "./firebase";
+//import { signOut } from "firebase/auth";
+//import TagBlog from "./Components/Admin/Pages/TagBlog";
+//import CategoryBlog from "./Components/Admin/Pages/CategoryBlog";
 //import ScrollToTop from "./Components/Admin/ScrollToTop";
-import Blogs from "./Components/Admin/Pages/Blog";
+//import Blogs from "./Components/Admin/Pages/Blog";
 import HomeUser from "./Components/home";
 import Service from "./Components/service";
 import Contact from "./Components/contact";
 import Blog from "./Components/blog";
 import Glue from "./Components/glue";
 import Appointment from "./Components/appointment";
-import Admin from "./Components/Admin/admin";
-import Post from "./Components/Admin/post";
+//import Admin from "./Components/Admin/admin";
+//import Post from "./Components/Admin/post";
 import AboutUser from "./Components/about";
 
 function App() {
-  const [active, setActive] = useState("home");
-  const [user, setUser] = useState(null);
+  // const [active, setActive] = useState("home");
+  // const [user, setUser] = useState(null);
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  useEffect(() => {
-    auth.onAuthStateChanged((authUser) => {
-      if (authUser) {
-        setUser(authUser);
-      } else {
-        setUser(null);
-      }
-    });
-  }, []);
+  // useEffect(() => {
+  //   auth.onAuthStateChanged((authUser) => {
+  //     if (authUser) {
+  //       setUser(authUser);
+  //     } else {
+  //       setUser(null);
+  //     }
+  //   });
+  // }, []);
 
-  const handleLogout = () => {
-    signOut(auth).then(() => {
-      setUser(null);
-      setActive("login");
-      navigate("/auth");
-    });
-  };
+  // const handleLogout = () => {
+  //   signOut(auth).then(() => {
+  //     setUser(null);
+  //     setActive("login");
+  //     navigate("/auth");
+  //   });
+  // };
   return (
     <Fragment>
       <Routes>
