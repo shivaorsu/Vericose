@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 //import { excerpt } from "../utility";
 import { excerpt } from "../../utility";
-import "./style.css";
+//import "./style.css";
 import HeaderAdmin from "./Headeradmin";
 
 const BlogSection = ({

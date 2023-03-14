@@ -1,94 +1,43 @@
-[debug] [2023-03-13T09:55:19.656Z] ----------------------------------------------------------------------
-[debug] [2023-03-13T09:55:19.659Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shiva\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2023-03-13T09:55:19.659Z] CLI Version:   11.24.1
-[debug] [2023-03-13T09:55:19.660Z] Platform:      win32
-[debug] [2023-03-13T09:55:19.660Z] Node Version:  v19.0.1
-[debug] [2023-03-13T09:55:19.660Z] Time:          Mon Mar 13 2023 15:25:19 GMT+0530 (India Standard Time)
-[debug] [2023-03-13T09:55:19.660Z] ----------------------------------------------------------------------
+[debug] [2023-03-13T12:44:30.318Z] ----------------------------------------------------------------------
+[debug] [2023-03-13T12:44:30.324Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shiva\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-03-13T12:44:30.326Z] CLI Version:   11.24.1
+[debug] [2023-03-13T12:44:30.326Z] Platform:      win32
+[debug] [2023-03-13T12:44:30.326Z] Node Version:  v19.0.1
+[debug] [2023-03-13T12:44:30.327Z] Time:          Mon Mar 13 2023 18:14:30 GMT+0530 (India Standard Time)
+[debug] [2023-03-13T12:44:30.327Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2023-03-13T09:55:19.749Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2023-03-13T09:55:19.749Z] > authorizing via signed-in user (shivaorsu785@gmail.com)
+[debug] [2023-03-13T12:44:30.504Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-13T12:44:30.505Z] > authorizing via signed-in user (shivaorsu785@gmail.com)
+[debug] [2023-03-13T12:44:30.505Z] [iam] checking project politiparty-9483a for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2023-03-13T12:44:30.508Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/politiparty-9483a:testIamPermissions [none]
+[debug] [2023-03-13T12:44:30.508Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/politiparty-9483a:testIamPermissions x-goog-quota-user=projects/politiparty-9483a
+[debug] [2023-03-13T12:44:30.508Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/politiparty-9483a:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2023-03-13T12:44:31.883Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/politiparty-9483a:testIamPermissions 200
+[debug] [2023-03-13T12:44:31.884Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/politiparty-9483a:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2023-03-13T12:44:31.886Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/politiparty-9483a/serviceAccounts/politiparty-9483a@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2023-03-13T12:44:31.886Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/politiparty-9483a/serviceAccounts/politiparty-9483a@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2023-03-13T12:44:33.233Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/politiparty-9483a/serviceAccounts/politiparty-9483a@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2023-03-13T12:44:33.234Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/politiparty-9483a/serviceAccounts/politiparty-9483a@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2023-03-13T12:44:33.237Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/politiparty-9483a [none]
+[debug] [2023-03-13T12:44:33.693Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/politiparty-9483a 200
+[debug] [2023-03-13T12:44:33.694Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/politiparty-9483a {"projectId":"politiparty-9483a","projectNumber":"1006099645785","displayName":"Veinvascular","name":"projects/politiparty-9483a","resources":{"hostingSite":"politiparty-9483a","realtimeDatabaseInstance":"politiparty-9483a-default-rtdb","storageBucket":"politiparty-9483a.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_3b4f66e0-762d-4be8-86f1-0f5067dcf997"}
+[debug] [2023-03-13T12:44:33.697Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/politiparty-9483a [none]
+[debug] [2023-03-13T12:44:34.087Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/politiparty-9483a 200
+[debug] [2023-03-13T12:44:34.088Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/politiparty-9483a {"projectId":"politiparty-9483a","projectNumber":"1006099645785","displayName":"Veinvascular","name":"projects/politiparty-9483a","resources":{"hostingSite":"politiparty-9483a","realtimeDatabaseInstance":"politiparty-9483a-default-rtdb","storageBucket":"politiparty-9483a.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_3b4f66e0-762d-4be8-86f1-0f5067dcf997"}
 [info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  C:\Users\Shiva\Desktop
-
-Before we get started, keep in mind:
-
-  * You are initializing within an existing Firebase project directory
-
+[info] === Deploying to 'politiparty-9483a'...
 [info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2023-03-13T09:55:36.378Z] Using project from CLI flag: mailboxclient-71305
-[debug] [2023-03-13T09:55:36.381Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mailboxclient-71305 [none]
-[debug] [2023-03-13T09:55:36.942Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mailboxclient-71305 200
-[debug] [2023-03-13T09:55:36.943Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mailboxclient-71305 {"projectId":"mailboxclient-71305","projectNumber":"1031111351175","displayName":"MailBoxClient","name":"projects/mailboxclient-71305","resources":{"hostingSite":"mailboxclient-71305","realtimeDatabaseInstance":"mailboxclient-71305-default-rtdb","storageBucket":"mailboxclient-71305.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_ba319692-f16c-4a45-8445-c374c8ed4fcf"}
-[info] i  Using project mailboxclient-71305 (MailBoxClient) 
-[info] 
-=== Database Setup
-[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
-[debug] [2023-03-13T09:55:36.971Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/mailboxclient-71305/services/firebasedatabase.googleapis.com [none]
-[debug] [2023-03-13T09:55:36.971Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/mailboxclient-71305/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/mailboxclient-71305
-[debug] [2023-03-13T09:55:38.656Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/mailboxclient-71305/services/firebasedatabase.googleapis.com 200
-[debug] [2023-03-13T09:55:38.656Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/mailboxclient-71305/services/firebasedatabase.googleapis.com [omitted]
-[info] +  database: required API firebasedatabase.googleapis.com is enabled 
-[info] 
-[debug] [2023-03-13T09:55:38.663Z] >>> [apiv2][query] GET https://firebasedatabase.googleapis.com/v1beta/projects/mailboxclient-71305/locations/-/instances/mailboxclient-71305-default-rtdb [none]
-[debug] [2023-03-13T09:55:39.341Z] <<< [apiv2][status] GET https://firebasedatabase.googleapis.com/v1beta/projects/mailboxclient-71305/locations/-/instances/mailboxclient-71305-default-rtdb 200
-[debug] [2023-03-13T09:55:39.341Z] <<< [apiv2][body] GET https://firebasedatabase.googleapis.com/v1beta/projects/mailboxclient-71305/locations/-/instances/mailboxclient-71305-default-rtdb {"name":"projects/1031111351175/locations/us-central1/instances/mailboxclient-71305-default-rtdb","project":"projects/1031111351175","databaseUrl":"https://mailboxclient-71305-default-rtdb.firebaseio.com","type":"DEFAULT_DATABASE","state":"ACTIVE"}
-[info] 
-[info] Firebase Realtime Database Security Rules allow you to define how your data should be
-[info] structured and when your data can be read from and written to.
-[info] 
-[debug] [2023-03-13T09:55:39.356Z] >>> [apiv2][query] GET https://mailboxclient-71305-default-rtdb.firebaseio.com/.settings/rules.json [none]
-[debug] [2023-03-13T09:55:40.294Z] <<< [apiv2][status] GET https://mailboxclient-71305-default-rtdb.firebaseio.com/.settings/rules.json 200
-[debug] [2023-03-13T09:55:40.294Z] <<< [apiv2][body] GET https://mailboxclient-71305-default-rtdb.firebaseio.com/.settings/rules.json [stream]
-[info] +  Database Rules for mailboxclient-71305-default-rtdb have been written to database.rules.json. 
-[info] Future modifications to database.rules.json will update Realtime Database Security Rules when you run
-[info] firebase deploy.
-[info] 
-=== Hosting Setup
-[info] 
-[info] Your public directory is the folder (relative to your project directory) that
-[info] will contain Hosting assets to be uploaded with firebase deploy. If you
-[info] have a build process for your assets, use your build's output directory.
-[info] 
-[debug] [2023-03-13T09:56:29.133Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
-[debug] [2023-03-13T09:56:29.349Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
-[debug] [2023-03-13T09:56:29.350Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.17.2","browserURL":"https://www.gstatic.com/firebasejs/9.17.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.17.2/firebase.tgz"},"live":{"version":"9.17","browserURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.17.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.17.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.17.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.17.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.17.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.17.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.17.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.17.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.17.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.17.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.17.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore.memory.js"}}
-[info] +  Wrote y/index.html 
-[info] 
-[info] i  Detected a .git folder at C:\Users\Shiva\Desktop\Vericose 
-[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
-[info] 
-[info] Visit this URL on this device to log in:
-[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=676975250&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
-[info] 
-[info] Waiting for authentication...
-[debug] [2023-03-13T09:56:38.345Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
-[debug] [2023-03-13T09:56:38.346Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
-[debug] [2023-03-13T09:56:38.893Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
-[debug] [2023-03-13T09:56:38.894Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
-[debug] [2023-03-13T09:56:38.925Z] >>> [apiv2][query] GET https://api.github.com/user [none]
-[debug] [2023-03-13T09:56:39.378Z] <<< [apiv2][status] GET https://api.github.com/user 200
-[debug] [2023-03-13T09:56:39.379Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"shivaorsu","id":112755898,"node_id":"U_kgDOBriEug","avatar_url":"https://avatars.githubusercontent.com/u/112755898?v=4","gravatar_id":"","url":"https://api.github.com/users/shivaorsu","html_url":"https://github.com/shivaorsu","followers_url":"https://api.github.com/users/shivaorsu/followers","following_url":"https://api.github.com/users/shivaorsu/following{/other_user}","gists_url":"https://api.github.com/users/shivaorsu/gists{/gist_id}","starred_url":"https://api.github.com/users/shivaorsu/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/shivaorsu/subscriptions","organizations_url":"https://api.github.com/users/shivaorsu/orgs","repos_url":"https://api.github.com/users/shivaorsu/repos","events_url":"https://api.github.com/users/shivaorsu/events{/privacy}","received_events_url":"https://api.github.com/users/shivaorsu/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":26,"public_gists":0,"followers":0,"following":0,"created_at":"2022-09-03T10:06:26Z","updated_at":"2023-03-06T12:43:20Z","private_gists":0,"total_private_repos":8,"owned_private_repos":8,"disk_usage":51821,"collaborators":1,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
-[info] 
-[info] +  Success! Logged into GitHub as shivaorsu 
-[info] 
-[debug] [2023-03-13T09:58:22.881Z] >>> [apiv2][query] GET https://api.github.com/repos/vericose/repository/actions/secrets/public-key type=owner
-[debug] [2023-03-13T09:58:23.273Z] <<< [apiv2][status] GET https://api.github.com/repos/vericose/repository/actions/secrets/public-key 404
-[debug] [2023-03-13T09:58:23.274Z] <<< [apiv2][body] GET https://api.github.com/repos/vericose/repository/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/reference/actions#get-a-repository-public-key"}
-[debug] [2023-03-13T09:58:40.156Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
-[debug] [2023-03-13T09:58:40.977Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
-[debug] [2023-03-13T09:58:40.977Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] i  deploying database, firestore, functions, hosting 
+[debug] [2023-03-13T12:44:34.284Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:393:5)
+    at validateString (node:internal/validators:163:11)
+    at Object.join (node:path:433:7)
+    at Config.path (C:\Users\Shiva\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:123:45)
+    at getChildEnvironment (C:\Users\Shiva\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:52:49)
+    at runTargetCommands (C:\Users\Shiva\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:73:14)
+    at C:\Users\Shiva\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:125:24
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async chain (C:\Users\Shiva\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:35:9)
+    at async deploy (C:\Users\Shiva\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:78:5)
+[error] 
+[error] Error: An unexpected error has occurred.
